@@ -14,7 +14,7 @@ public class Customer {
 	private Basket basket_products;
 	
 	/* A constructor that takes as input a String indicating the name of the customer, and an int representing their initial balance. 
-     * The constructor uses its inputs and creates an empty Basket to initialize the corresponding fields.*/
+         * The constructor uses its inputs and creates an empty Basket to initialize the corresponding fields.*/
 	public Customer(String name_of_customer, int initial_balance) {
 		this.name=name_of_customer;
 		this.balance = initial_balance;
@@ -37,8 +37,8 @@ public class Customer {
 	
 	/*
 	 * An addFunds() method which takes an int as input representing the amount of cents to be added to the balance of this Customer. 
-     * If the input received is negative, the method should throw an IllegalArgumentException with an appropriate message. 
-     * Otherwise, the method will simply update the balance and return the new balance in cents.
+         * If the input received is negative, the method should throw an IllegalArgumentException with an appropriate message. 
+         * Otherwise, the method will simply update the balance and return the new balance in cents.
 	 */
 	public int addFunds(int amount_added_balance) {
 		if(amount_added_balance >= 0) {
@@ -58,7 +58,7 @@ public class Customer {
 	
 	/*
 	 * A removeFromBasket() method which takes a MarketProduct as input and removes it from the basket of this Customer. 
-     * The method returns a boolean indicating whether of not the operation was successful.
+         * The method returns a boolean indicating whether of not the operation was successful.
 	 */
 	public boolean removeFromBasket(MarketProduct p) {
 		if(basket_products.remove(p)) {
@@ -70,8 +70,8 @@ public class Customer {
 	
 	/*
 	 *  A checkOut() method which takes no input and returns the receipt for the customer as a String. 
-     * If this Customer’s balance is not enough to cover the total cost of their basket, then the method throws an IllegalStateException. 
-     * Otherwise, this Customer is charged the total cost of the basket, the basket is cleared, and a receipt is returned.
+         * If this Customer’s balance is not enough to cover the total cost of their basket, then the method throws an IllegalStateException. 
+         * Otherwise, this Customer is charged the total cost of the basket, the basket is cleared, and a receipt is returned.
 	 */
 	public String checkOut() {
 		String receipt="";
