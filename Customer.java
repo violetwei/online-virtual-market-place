@@ -37,8 +37,8 @@ public class Customer {
 	
 	/*
 	 * An addFunds() method which takes an int as input representing the amount of cents to be added to the balance of this Customer. 
-         * If the input received is negative, the method should throw an IllegalArgumentException with an appropriate message. 
-         * Otherwise, the method will simply update the balance and return the new balance in cents.
+        * If the input received is negative, the method should throw an IllegalArgumentException with an appropriate message. 
+        * Otherwise, the method will simply update the balance and return the new balance in cents.
 	 */
 	public int addFunds(int amount_added_balance) {
 		if(amount_added_balance >= 0) {
