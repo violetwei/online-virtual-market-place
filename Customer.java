@@ -14,7 +14,7 @@ public class Customer {
 	private Basket basket_products;
 	
 	/* A constructor that takes as input a String indicating the name of the customer, and an int representing their initial balance. 
-         * The constructor uses its inputs and creates an empty Basket to initialize the corresponding fields.*/
+        * The constructor uses its inputs and creates an empty Basket to initialize the corresponding fields.*/
 	public Customer(String name_of_customer, int initial_balance) {
 		this.name=name_of_customer;
 		this.balance = initial_balance;
