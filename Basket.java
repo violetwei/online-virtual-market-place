@@ -1,7 +1,3 @@
-/* 
- * The class must also have the following public methods.
- */
-
 public class Basket{
 	
 	//Write a class Basket which has the following private field: An array of MarketProducts.
@@ -26,12 +22,7 @@ public class Basket{
 	// An add() method which takes as input a MarketProduct and does not return any value. 
 	// The method adds the MarketProduct at the end of the list of products of this Basket.
 	public void add(MarketProduct m) {
-		/*for(int i=0; i< products.length; i++) {
-			if(products[i].equals(null)) {
-				products[i]=m;
-				break;
-			}
-		}*/
+		
 		if(this.products.length == 0) {
 			this.products = new MarketProduct[1];
 			this.products[0] = m;
@@ -56,7 +47,6 @@ public class Basket{
      * After the product has been remove from the array, the subsequent elements should be shifted down by one position, leaving no empty slot in the array. 
 	 */ 
 	public boolean remove(MarketProduct p) {
-		//MarketProduct[] newarray = new MarketProduct[getNumOfProducts()-1];
 		int i;
 		for(i=0; i < getNumOfProducts(); i++) {
 			if(products[i].equals(p)) {
