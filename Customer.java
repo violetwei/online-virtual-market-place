@@ -70,8 +70,8 @@ public class Customer {
 	
 	/*
 	 *  A checkOut() method which takes no input and returns the receipt for the customer as a String. 
-         * If this Customer’s balance is not enough to cover the total cost of their basket, then the method throws an IllegalStateException. 
-         * Otherwise, this Customer is charged the total cost of the basket, the basket is cleared, and a receipt is returned.
+        * If this Customer’s balance is not enough to cover the total cost of their basket, then the method throws an IllegalStateException. 
+        * Otherwise, this Customer is charged the total cost of the basket, the basket is cleared, and a receipt is returned.
 	 */
 	public String checkOut() {
 		String receipt="";
