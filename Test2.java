@@ -1,4 +1,4 @@
-
+// This is another tester for the online virtual market place
 public class Test2 {
 	static Egg egg = new Egg("GoodEgg",30,200);
 	static Jam CherryJam = new Jam("Cherry Jam",10,500);
