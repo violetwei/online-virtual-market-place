@@ -1,5 +1,5 @@
 /**
- * NOTE: THIS TEST IS NOT COMPLETE AND DOES NOT REFLECT YOUR FINAL GRADE FOR THE ASSIGNMENT.
+ * NOTE: THIS TEST IS A TESTER for the virtual online market place.
  */
 public class Another_test{
     public static void main(String[] args){
